@@ -1,0 +1,17 @@
+A Sudoku játékban adott egy 9x9-es pálya, amely 9 darab 3x3-as négyzetre(boxokra) van osztva. Az
+egész pályán 1-9-ig elszórtan találhatók számok. A cél, hogy az üresen maradt cellák ki legyenek
+töltve úgy, hogy minden sorban és minden oszlopban 1-9-ig terjedő számok csak egyszer
+szerepelhetnek, illetve a 3x3-as négyzetekben is 1-9-ig minden számjegynek szerepelnie kell
+pontosan egyszer.
+A program üres pályáról indul. Minden cella nullát tartalmaz, ez jelképezi az üres cellát.
+A felhasználó meg tud adni egy pályát, a kiválasztott cellákba be tud írni számokat, a többit üresen
+hagyja. Ezt a megadott pályát a program tölti ki, a ’Megoldás’ gomb lenyomása után. A kitöltés során
+el tudja dönteni, hogy egyáltalán megoldható-e a felhasználó által kitöltött számokkal a pálya. Ha
+nem, abbahagyja annak megoldását és a program kiírja a fenti szövegdobozba, hogy elsősorban miért
+akadt meg a megoldás menete. Ha igen, akkor kitölti az összes cellát a megadott szabályoknak
+megfelelően és megjelenik a megoldás.
+A ’Menu’ részt lenyomva megjelenik két opció: Reset és Load.
+A ’Reset’ menü lenullázza a cellákban megadott összes számot. Ennek segítségével lehet újra az üres
+pályáról kitölteni a kívánt számokat.
+A ’Load’ menü kiválasztásával betölti a program az előző megoldott pályát. Ezt utána lehet
+módosítani, akár pár szám kitörlése következtében újra megoldatni a programmal.
