@@ -1,0 +1,6 @@
+In the Sudoku game, a 9x9 track is given, which is divided into 9 3x3 squares (boxes). Numbers 1-9 are scattered throughout the track. The goal is to fill in the empty cells so that in each row and each column the numbers from 1 to 9 can only appear once, and in the 3x3 squares every digit from 1 to 9 must appear exactly once.
+The program starts from an empty field. Each cell contains a zero, which represents an empty cell.
+The user can enter a track, enter numbers in the selected cells, and leave the rest blank. This given field is filled in by the program after pressing the 'Solution' button. During the filling, it can decide whether the field can be solved at all with the numbers filled in by the user. If not, it stops solving it and the program writes in the text box above why the solution process stopped in the first place. If so, fill in all the cells according to the specified rules and the solution will be displayed.
+By pressing the 'Menu' section, two options appear: Reset and Load.
+The 'Reset' menu resets all the numbers entered in the cells. With this, you can fill in the desired numbers from the empty track again.
+By selecting the 'Load' menu, the program loads the previously solved track. This can be modified afterwards, or solved again with the program as a result of deleting a few numbers.

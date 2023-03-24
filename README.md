@@ -1,3 +1,3 @@
 # Sudoku
 
-Algoritmus, amely kitölti a 9x9-es táblát a Sudoku játék szabályainak megfelelően.
+Algorithm that fills the 9x9 board according to the rules of the Sudoku game.
